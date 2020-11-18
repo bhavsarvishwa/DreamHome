@@ -1,0 +1,124 @@
+/*
+  Description:   This file contains gives an example of few tags which we can use to make our website consistent like a theme
+                 using a Cascading Style Sheets. This is also helpful to save time.
+*/
+/* Full-width input fields */
+input[type=text], input[type=password] ,select{
+    width: 95%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+  }
+
+select{
+    width: 97%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+/*input[type=text]:focus, input[type=password]:focus {
+    /*background-color: #ddd;*/
+    /*outline: none;*/
+}
+*/
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: darkgray;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    /*border: none;*/
+    cursor: pointer;
+    width: 40%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: darkgray;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn, .resetbtn, .loginbtn, .searchbtn, .createbtn, .updatebtn {
+  float: left;
+  width: 49%;
+  margin: 0,23,4,0;
+  border: 0.5px solid black;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 19px;
+    border:1px solid darkgray;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+.footer{
+  padding: 0px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #294E79;
+    color: white;
+    text-align: right;
+    height: 40px;
+    margin-bottom: 2px;
+}
+
+.logo {
+  /*background: url("../images/realestatelogo.png") no-repeat; */
+  padding: 20px;
+  width: 10px;
+  height: 10px;
+  float: left;
+  /*display: block;*/
+  text-indent: -99px;
+}
